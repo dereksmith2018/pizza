@@ -3,7 +3,7 @@ body{
 }
 
 .orderTopping{
-  display:;
+  /* display:none; */
 }
 
 .btn{
@@ -11,6 +11,8 @@ body{
   transition-duration: 0.2s;
   border-radius: 50%;
   width: 300px;
+  margin:0 auto;
+  margin-right:10px;
 }
 
 .btn:hover{
@@ -21,6 +23,7 @@ img{
   width: 150px;
   height: 110px;
   border-radius: 12px;
+
 }
 
 #thin{
