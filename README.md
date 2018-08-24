@@ -15,7 +15,7 @@ Website that takes you entries and compiles them for your order.
 -Show alert for user to confirm order
 
 ## Back end:
-grab users info - show the first (3)button selection - only one type can be chosen from first - button will prompt next
+-grab users info - show the first (3)button selection - only one type can be chosen from first - button will prompt next
 (11)buttons to show - multiple button aloud to be used on this section - the buttons have values to them and will be captured - run through "else if" and give the user a price and the selected options list - send an alert to confirm order    
 
 ## Completed with:
