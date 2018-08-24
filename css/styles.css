@@ -1,7 +1,36 @@
+body{
+  background-color: #e6ffff
+}
+
 .orderTopping{
-  display: none;
+  display:;
+}
+
+.btn{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.2s;
+  border-radius: 50%;
+  width: 300px;
 }
 
 .btn:hover{
 background-color: red;
+}
+
+img{
+  width: 150px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+#thin{
+  align-items: left;
+}
+
+#regular{
+  align-items: center;
+}
+
+#deepDish{
+  align-content: right;
 }
