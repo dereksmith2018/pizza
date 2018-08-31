@@ -9,32 +9,29 @@
   </head>
   <body>
     <h1>Pizza Kitchen</h1>
-    <form id=userOrder>
-      <div id="orderStyle">
-        <button class="btn btn-success" type="button" id="thin" value=11><img src="img/thin.jpg">Thin crust pizza</button>
-        <button class="btn btn-success" type="button" id="regular" value=10><img src="img/regular.jpg">Regular pizza</button>
-        <button class="btn btn-success" type="button" id="deepDish" value=12><img src="img/deep.jpg">Deep Dish pizza</button>
+      <form id="order">
+      <div id="orderType">
+        <button class="btn btn-success" type="button" name="type" value="thin"><img src="img/thin.jpg">Thin crust pizza</button>
+        <button class="btn btn-success" type="button" name="type" value="regular"><img src="img/regular.jpg">Regular pizza</button>
+        <button class="btn btn-success" type="button" name="type" value="deepdish"><img src="img/deep.jpg">Deep Dish pizza</button>
       </div>
       <br>
-      <div id="spot1">
-        <button class="btn btn-success" type="button" id="cheese" value="1"><img src="img/cheese.jpg">Extra Cheese</button>
-        <button class="btn btn-success" type="button" id="pepperoni" value="1"><img src="img/pepperoni.jpg">Extra Pepperoni</button>
-        <button class="btn btn-success" type="button" id="cBacon" value="1"><img src="img/cbacon.jpg">Canadian Bacon</button>
+      <div id="toppingList">
+        <button class="btn btn-success" type="button" name="toppings" value="cheese"><img src="img/cheese.jpg">Extra Cheese</button>
+        <button class="btn btn-success" type="button" name="toppings" value="pepperoni"><img src="img/pepperoni.jpg">Extra Pepperoni</button>
+        <button class="btn btn-success" type="button" name="toppings" value="cBacon"><img src="img/cbacon.jpg">Canadian Bacon</button>
+        <button class="btn btn-success" type="button" name="toppings" value="sausage"><img src="img/sausage.jpg">Sausage</button>
+        <button class="btn btn-success" type="button" name="toppings" value="bacon"><img src="img/bacon.jpg">Bacon</button>
+        <button class="btn btn-success" type="button" name="toppings" value="ham"><img src="img/ham.jpg">Ham</button>
+        <button class="btn btn-success" type="button" name="toppings" value="mushrooms"><img src="img/mushroom.jpg">Mushrooms</button>
+        <button class="btn btn-success" type="button" name="toppings" value="jalapeno"><img src="img/jalapeno.jpg">Jalapeno</button>
+        <button class="btn btn-success" type="button" name="toppings" value="peppers"><img src="img/pepper.jpg">Peppers</button>
+        <button class="btn btn-success" type="button" name="toppings" value="olive"><img src="img/olive.jpg">Olive</button>
+        <button class="btn btn-success" type="button" name="toppings" value="pineapple"><img src="img/pineapple.jpg">Pineapple</button>
       </div>
-      <div id="spot2">
-        <button class="btn btn-success" type="button" id="sausage"value="1"><img src="img/sausage.jpg">Sausage</button>
-        <button class="btn btn-success" type="button" id="bacon"value="1"><img src="img/bacon.jpg">Bacon</button>
-        <button class="btn btn-success" type="button" id="ham"value="1"><img src="img/ham.jpg">Ham</button>
-      </div>
-      <div id="spot3">
-        <button class="btn btn-success" type="button" id="mushrooms" value="1"><img src="img/mushroom.jpg">Mushrooms</button>
-        <button class="btn btn-success" type="button" id="jalapeno" value="1"><img src="img/jalapeno.jpg">Jalapeno</button>
-        <button class="btn btn-success" type="button" id="peppers" value="1"><img src="img/pepper.jpg">Peppers</button>
-      </div>
-      <div id="spot4">
-        <button class="btn btn-success" type="button" id="olive"value="1"><img src="img/olive.jpg">Olive</button>
-        <button class="btn btn-success" type="button" id="pineapple"value="1"><img src="img/pineapple.jpg">Pineapple</button>
-      </div>
+    <button type="submit" class ="btn btn-success">Preview Order:</button>
     </form>
+    <ul id="answer">
+    </ul>
   </body>
 </html>

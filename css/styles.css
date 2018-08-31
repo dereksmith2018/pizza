@@ -13,10 +13,13 @@ body{
   width: 300px;
   margin:0 auto;
   margin-right:10px;
+  background-color: red;
+
 }
 
 .btn:hover{
-background-color: red;
+background-color: #99ffff;
+color: red;
 }
 
 img{
@@ -36,4 +39,8 @@ img{
 
 #deepDish{
   align-content: right;
+}
+
+#toppingList{
+  display: none;
 }
