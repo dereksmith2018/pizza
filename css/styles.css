@@ -10,10 +10,12 @@ body{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   transition-duration: 0.2s;
   border-radius: 50%;
-  width: 300px;
+  width: 200px;
+  height: 40px:
   margin:0 auto;
   margin-right:10px;
-  background-color: red;
+  background-color: black;
+  color: blue;
 
 }
 
@@ -22,6 +24,13 @@ background-color: #99ffff;
 color: red;
 }
 
+.user{
+  width: 30px;
+  height: 30px;
+}
+.user:active + img {
+  border: 5px solid black;
+}
 img{
   width: 150px;
   height: 110px;

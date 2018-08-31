@@ -11,25 +11,35 @@
     <h1>Pizza Kitchen</h1>
       <form id="order">
       <div id="orderType">
-        <input class="btn btn-success" type="checkbox" name="type" value="thin" checked><img src="img/thin.jpg">Thin crust pizza
-        <input class="btn btn-success" type="checkbox" name="type" value="regular"><img src="img/regular.jpg">Regular pizza
-        <input class="btn btn-success" type="checkbox" name="type" value="deepdish"><img src="img/deep.jpg">Deep Dish pizza
+        <input class="user" type="radio" name="type" value="thin"><img src="img/thin.jpg">Thin crust pizza
+        <input class="user" type="radio" name="type" value="regular" checked><img src="img/regular.jpg">Regular pizza
+        <input class="user" type="radio" name="type" value="deepdish"><img src="img/deep.jpg">Deep Dish pizza
       </div>
       <br>
       <div id="toppingList">
-        <input class="btn btn-success" type="checkbox" name="toppings" value="cheese" checked><img src="img/cheese.jpg">Extra Cheese
-        <input class="btn btn-success" type="checkbox" name="toppings" value="pepperoni"><img src="img/pepperoni.jpg">Extra Pepperoni
-        <input class="btn btn-success" type="checkbox" name="toppings" value="cBacon"><img src="img/cbacon.jpg">Canadian Bacon
-        <input class="btn btn-success" type="checkbox" name="toppings" value="sausage"><img src="img/sausage.jpg">Sausage
-        <input class="btn btn-success" type="checkbox" name="toppings" value="bacon"><img src="img/bacon.jpg">Bacon
-        <input class="btn btn-success" type="checkbox" name="toppings" value="ham"><img src="img/ham.jpg">Ham
-        <input class="btn btn-success" type="checkbox" name="toppings" value="mushrooms"><img src="img/mushroom.jpg">Mushrooms
-        <input class="btn btn-success" type="checkbox" name="toppings" value="jalapeno"><img src="img/jalapeno.jpg">Jalapeno
-        <input class="btn btn-success" type="checkbox" name="toppings" value="peppers"><img src="img/pepper.jpg">Peppers
-        <input class="btn btn-success" type="checkbox" name="toppings" value="olive"><img src="img/olive.jpg">Olive
-        <input class="btn btn-success" type="checkbox" name="toppings" value="pineapple"><img src="img/pineapple.jpg">Pineapple
+        <div class="newspaper">
+          <div>
+            <input class="user" type="checkbox" name="toppings" value="cheese" checked><img src="img/cheese.jpg">Extra Cheese<br>
+            <input class="user" type="checkbox" name="toppings" value="pepperoni"><img src="img/pepperoni.jpg">Extra Pepperoni<br>
+            <input class="user" type="checkbox" name="toppings" value="cBacon"><img src="img/cbacon.jpg">Canadian Bacon<br>
+          </div>
+          <div>
+            <input class="user" type="checkbox" name="toppings" value="sausage"><img src="img/sausage.jpg">Sausage<br>
+            <input class="user" type="checkbox" name="toppings" value="bacon"><img src="img/bacon.jpg">Bacon<br>
+            <input class="user" type="checkbox" name="toppings" value="ham"><img src="img/ham.jpg">Ham<br>
+          </div>
+          <div>
+            <input class="user" type="checkbox" name="toppings" value="mushrooms"><img src="img/mushroom.jpg">Mushrooms<br>
+            <input class="user" type="checkbox" name="toppings" value="jalapeno"><img src="img/jalapeno.jpg">Jalapeno<br>
+            <input class="user" type="checkbox" name="toppings" value="peppers"><img src="img/pepper.jpg">Peppers<br>
+          </div>
+          <div>
+            <input class="user" type="checkbox" name="toppings" value="olive"><img src="img/olive.jpg">Olive<br>
+            <input class="user" type="checkbox" name="toppings" value="pineapple"><img src="img/pineapple.jpg">Pineapple
+          </div>
+        </div>
       </div>
-    <button type="submit" class ="btn btn-success">Preview Order:</button>
+    <button type="submit" class ="btn btn-success">Submit Order:</button>
     </form>
     <ul id="answer">
     </ul>
